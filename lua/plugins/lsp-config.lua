@@ -16,11 +16,19 @@ return {
   {
     "neovim/nvim-lspconfig",
     config = function()
+      local capabilities = require("cmp_nvim_lsp").default_capabilities()
+
       local lspconfig = require("lspconfig")
       -- setup language servers  
-      lspconfig.lua_ls.setup({})
-      lspconfig.tsserver.setup({})
-      lspconfig.rust_analyzer.setup({})
+      lspconfig.lua_ls.setup({
+capabilities = capabilities
+      })
+      lspconfig.tsserver.setup({
+capabilities = capabilities
+      })
+      lspconfig.rust_analyzer.setup({
+capabilities = capabilities
+      })
 
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, {})
