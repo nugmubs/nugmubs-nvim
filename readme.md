@@ -4,9 +4,11 @@ nugmubs-nvim is an amazing extension of neovim that takes it to the level of an 
 
 ## Logs
 
-- 2024.05.14, toggleterm 
+- 2024.05.14
+  - set up toggleterm 
   - there is nothing special about setting up toggleterm. 
   - alwasy do not expect large things.... 
+  - enhance nvim-cmp settings, which support completions when nvim is editing mode. 
 
 
 ## TODOs
