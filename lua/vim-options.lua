@@ -15,3 +15,6 @@ vim.keymap.set("n", "<c-l>", ":wincmd l<CR>") -- right arrow
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.wo.number = true
+
+vim.api.nvim_set_option("clipboard", "unnamed")
+
