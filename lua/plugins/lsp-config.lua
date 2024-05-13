@@ -24,13 +24,13 @@ return {
 			local lspconfig = require("lspconfig")
 			-- setup language servers
 			lspconfig.lua_ls.setup({
-				capabilities = capabilities,
+				-- capabilities = capabilities,
 			})
 			lspconfig.tsserver.setup({
-				capabilities = capabilities,
+				-- capabilities = capabilities,
 			})
 			lspconfig.rust_analyzer.setup({
-				capabilities = capabilities,
+				-- capabilities = capabilities,
 			})
 
 			local rt = require("rust-tools")
