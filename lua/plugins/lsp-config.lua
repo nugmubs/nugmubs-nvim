@@ -32,7 +32,9 @@ return {
 			lspconfig.rust_analyzer.setup({
 				-- capabilities = capabilities,
 			})
-
+      lspconfig.pyright.setup({
+        
+      })
 			local rt = require("rust-tools")
 			local mason_registry = require("mason-registry")
 
