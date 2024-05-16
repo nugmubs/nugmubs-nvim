@@ -13,4 +13,5 @@ vim.opt.rtp:prepend(lazypath)
 
 local opts = {}
 require("vim-options")
+require("vim-comments")
 require("lazy").setup("plugins")

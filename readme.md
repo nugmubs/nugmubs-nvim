@@ -11,5 +11,9 @@ nugmubs-nvim is an amazing extension of neovim that takes it to the level of an 
   - enhance nvim-cmp settings, which support completions when nvim is editing mode. 
 
 
-## TODOs
+## Favorite Sites 
+
+- "Neovim Plugin Discoverer", https://dotfyle.com/
+- "LazyVim", https://www.lazyvim.org/configuration/examples, "Useful for editing my neovim's config" 
+- 
 
